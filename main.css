@@ -1,0 +1,50 @@
+body{
+    font-family: 'Quicksand',sans-serif;
+    color: wheat;
+    background: rgb(18, 56, 76);
+}
+
+h1, p{
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 4px rgba(255,255,255,0.5);
+}
+
+.inner {
+    justify-content: center;
+    margin: 0 auto !important;
+    width: 720px;
+}
+
+.inner-content span{
+    cursor: pointer;
+    padding: 0 10px;
+    font-size: 30px;
+}
+
+input{
+    width: 720px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.list-group-item{
+    background-color: unset;
+    border-color: cyan;
+    cursor: pointer;
+}
+
+.list-group-item span{
+    float: left;
+    opacity: 0;
+    transition: 0.2s linear;
+}
+
+.list-group-item:hover span{
+    opacity: 1;
+}
+
+/*JS CLASSES*/
+.completed{
+    color: white;
+    text-decoration: line-through;
+}
